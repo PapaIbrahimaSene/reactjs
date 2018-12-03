@@ -1,0 +1,33 @@
+body,
+h1,
+h2,
+h2,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: 'Fira Sans' !important;
+}
+
+.ui.feed>.event>.content .summary {
+    font-weight: 500;
+}
+
+.ui.feed>.event>.content .summary a {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    -webkit-transition: color 0.75s;
+    transition: color 0.75s;
+}
+
+a:hover {
+    color: #db2828;
+    -webkit-transition: color 0.75s;
+    transition: color 0.75s;
+}
